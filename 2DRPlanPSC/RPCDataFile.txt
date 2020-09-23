@@ -1,0 +1,40 @@
+' rpc data file RoomPlanCoords
+
+' RPlanType   0(Main)
+0                Main
+MaxWScale	'1000 or 500
+RW,RD     Main size (Width,Depth)
+FurnName0
+FurnW,FurnD
+FurnLeft,FurnRight
+FurnName1
+FurnW,FurnD
+FurnLeft,FurnRight
+FurnName2
+FurnW,FurnD
+FurnLeft,FurnRight
+,,
+,,
+FurnName10
+FurnW,FurnD
+FurnLeft,FurnRight
+----------------- OR ----------------
+' RPlanType   1,2,3,4 (L-Room)
+1                (1,2,3,4 cut out TL,TR,BL,BR )
+MaxWScale	'1000 or 500
+RW,RD     Main size (Width,Depth)
+RWsw,RWsd   Cut out size (width,depth)
+FurnName0
+FurnW,FurnD
+FurnLeft,FurnRight
+FurnName1
+FurnW,FurnD
+FurnLeft,FurnRight
+FurnName2
+FurnW,FurnD
+FurnLeft,FurnRight
+,,
+,,
+FurnName10
+FurnW,FurnD
+FurnLeft,FurnRight

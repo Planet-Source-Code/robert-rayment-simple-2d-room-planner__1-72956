@@ -1,0 +1,16 @@
+For a alternative print out from 2D Room Planner:-
+
+In 2D planner, when the Print button is pressed the image is left
+on the Clipboard and a question will be asked, on exiting
+the progam, if you want the Clipboard to be cleared or not.
+
+If the image is left on ClipBoard then:
+
+Open PaintRR or other paint program:
+EG
+
+File button
+Paste as new image
+back arrow
+
+Print button etc
